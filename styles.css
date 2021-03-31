@@ -16,8 +16,7 @@ body{
 	overflow-x: hidden;
 	color: #000;
 	background: #eeeeee;
-
-
+  
 }
 
 body {
@@ -42,12 +41,15 @@ section p {
   text-align: center;
 }
 
-section {
+.contents {
   max-width: 100%;
 }
 
 h2 {
   font-family: Georgia, serif;
+  text-decoration: overline;
+  text-decoration-color: #3866ac;
+  text-decoration-thickness: 2px;
 }
 
 /* ヘッダー
@@ -131,6 +133,7 @@ section h2{
 #sec02{
 	max-width: 1170px;
 	margin: auto;
+  padding-bottom: 5rem;
 }
 /* #sec02 .wrap {
 
