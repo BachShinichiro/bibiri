@@ -43,6 +43,10 @@ section p {
 
 .contents {
   max-width: 100%;
+  background-image: url(images/viviri.png);
+  background-color:rgba(255,255,255,0.91);
+  background-blend-mode:lighten;
+  text-align: center;
 }
 
 h2 {
@@ -50,6 +54,10 @@ h2 {
   text-decoration: overline;
   text-decoration-color: #3866ac;
   text-decoration-thickness: 2px;
+}
+
+h3 {
+
 }
 
 /* ヘッダー
